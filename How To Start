@@ -1,0 +1,26 @@
+My Shopping Cart is an application where we dynamically apply discounts on shopping cart items, based
+on their category. Besides, based on the total cart value, the program should be able to
+apply a final slab-wise discount.
+For simplicity, and to work around database portability, assume the shopping cart data to
+be available in XML/ JSON format.
+For every item added in the shopping cart, apply the discount based on the category of the
+item being added. Likewise, based on all added items, (& their associated discounts
+applied), calculate the grand total, based on 3 parameters: (Unit Price, Quantity, & its
+applicable discount) – for each item. Apply a final slab based discount on the grand total, to
+generate the net bill value.
+Inputs, to the program:
+1. XML/ JSON – List of Shopping Item categories, and their applicable discount %
+2. XML/ JSON – List of items in shopping cart, their associated information, including
+their shopping category
+3. XML/ JSON – Grand total slabs, & their applicable discount %
+Outputs from the program:
+1. Itemized bill – listing each purchase item, its quantity, unit price, discount, and net
+purchase amount for that item, (& quantity)
+2. Grand total, applicable discount, and Net Bill Amount.
+
+
+
+
+To check the output,
+1. Please open MainShoppingCart.java and run it.
+2. Change the discount and price in the xml and test again.
